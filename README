@@ -1,0 +1,12 @@
+This is an Haskore encoding of the crab canon from J.S. Bach
+
+Language is Haskell.
+
+To hear it, you need:
+
+1. Timidity++
+2. GHC
+3. Haskore (cabal install haskore)
+
+Then simply:
+echo play | ghci crab-canon.hs 
